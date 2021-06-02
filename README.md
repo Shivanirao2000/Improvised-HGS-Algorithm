@@ -5,7 +5,9 @@
 > In this project, we aim to develop an enhanced version of a nature-inspired algorithm, Hunger Games Search algorithm, to compensate for its drawbacks. K-means algorithm will be used to test its efficacy.
 
 ## Hunger Games Search Algorithm
->* Hunger games search (HGS) was proposed in 2021, and it is a performance-based swarm optimization method, which has a strong performance compared to many optimizers and DE variants in studied benchmark problems. HGS simulates the logic of collaborative interactions based on individual hunger.  In each iteration, the algorithm searches around the optimal location, in the same manner, that animals forage, where the weights, or hunger values, mimic the impact of hunger on an animal’s individual activity. 
+> Hunger games search (HGS) was proposed in 2021, and it is a performance-based swarm optimization method, which has a strong performance compared to many optimizers and DE variants in studied benchmark problems. HGS simulates the logic of collaborative interactions based on individual hunger.  In each iteration, the algorithm searches around the optimal location, in the same manner, that animals forage, where the weights, or hunger values, mimic the impact of hunger on an animal’s individual activity. 
+
+## Improvised Algorithm design
 >* Aiming at the shortcomings of the hunger search, such as low precision, low optimization dimension, and mainly slow convergence speed, two improved versions of HGS have been developed. One version is based on Cauchy flight, and the other version is based on Levy flight.
 >* A Lévy flight is a random walk in which the step-lengths have a Lévy distribution, a probability distribution that is heavy-tailed. The term "Lévy flight" originates from the fact that the distribution of step sizes is a Levy distribution. For the case where the distribution of step sizes is a Cauchy distribution, it is called Cauchy flight. 
 
